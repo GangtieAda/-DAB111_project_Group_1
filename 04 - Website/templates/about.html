@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Project</title>
+</head>
+<body>
+    <h1>About the Project</h1>
+    <p>This project provides an overview of student performance data. It is designed to help educators and administrators analyze and understand student grades.</p>
+    
+    <h2>Team Members</h2>
+    <ul>
+        <li>Ishmael Ashitey (Student Id: 0858765)</li>
+        <li>Nawarat Medthunyapong (Student Id: 0872869)</li>
+        <li>Diego Felipe Moreno Lara (Student Id: 0860013)</li>
+        <li>Qianru Deng (Student Id: 0839710)</li>
+        <li>Wangchen Peng (Student Id: 0869679)</li>
+    </ul>
+    
+    <h2>Dataset Summary</h2>
+    <p>This dataset provides information on students' academic performance across multiple assessments. It includes student ID, gender, scores for Project Phase 1 and 2, Mid-Semester Test, Final Exam, and the final grade. The data shows a mix of male and female students, with scores ranging across different phases and exams. The final grade is categorized as either "PA" (Pass) or "NN" (No Pass), based on their performance.</p>
+    <p>It highlights the variation in student achievements and provides insights into their academic progression.</p>
+    
+    <h2>Sources</h2>
+    <p>The raw data of the CSV file was downloaded from:</p>
+    <ul>
+        <li>
+            <a href="https://github.com/akmand/datasets/blob/main/sample_grades.csv" target="_blank">
+                Source ID: https://github.com/akmand/datasets/blob/main/sample_grades.csv
+            </a>
+        </li>
+        <li>Owner: Dr. David Akman</li>
+    </ul>
+    
+    <h2>Dataset Variables and Analysis</h2>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <thead>
+            <tr>
+                <th>Variable Name</th>
+                <th>Description</th>
+                <th>Type</th>
+                <th>Role</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Student ID</td>
+                <td>Unique identifier for each student.</td>
+                <td>Categorical (ID)</td>
+                <td>Identifier, not used for calculations.</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Indicates the gender of the student (e.g., Male, Female).</td>
+                <td>Categorical</td>
+                <td>Grouping or comparison.</td>
+            </tr>
+            <tr>
+                <td>Project Phase 1</td>
+                <td>Score obtained by the student in Project Phase 1 (out of 20).</td>
+                <td>Numeric (Ratio)</td>
+                <td>Feature for academic performance analysis.</td>
+            </tr>
+            <tr>
+                <td>Project Phase 2</td>
+                <td>Score obtained in Project Phase 2 (out of 40).</td>
+                <td>Numeric (Ratio)</td>
+                <td>Feature for academic performance analysis.</td>
+            </tr>
+            <tr>
+                <td>Mid-Semester Test</td>
+                <td>Score obtained in the mid-semester test (out of 100).</td>
+                <td>Numeric (Ratio)</td>
+                <td>Key performance indicator.</td>
+            </tr>
+            <tr>
+                <td>Final Exam</td>
+                <td>Score obtained in the final exam (out of 100).</td>
+                <td>Numeric (Ratio)</td>
+                <td>Key performance indicator.</td>
+            </tr>
+            <tr>
+                <td>Grade</td>
+                <td>Final grade categorized as PA (Pass) or NN (No Pass).</td>
+                <td>Categorical</td>
+                <td>Target variable for classification.</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
